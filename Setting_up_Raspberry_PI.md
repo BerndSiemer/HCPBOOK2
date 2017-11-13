@@ -1,5 +1,5 @@
 # Setting up Raspbian Pi for internal use at SAP
-
+Get a Raspberry Pi running and connect it to the internal network at SAP.
 ## [Prerequisites]
 - Raspberry Pi 3 (Hint: Raspberry Pi 1 and 2 don't have a WLan module.)
 - Micro SD card (at least 8 GB)
