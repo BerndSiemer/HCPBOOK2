@@ -1,12 +1,12 @@
-#
+# Setting up Raspbian Pi for internal use at SAP
 
 ## [Prerequisites]
-- Raspberry Pi 3 
+- Raspberry Pi 3 (Hint: Raspberry Pi 1 and 2 don't have a WLan module.)
 - Micro SD card (at least 8 GB)
 
 ## Installing the OS Raspbian on your micro SD card
 
-1. Put the micro SD card into your laptop
+1. Put the micro SD card into your laptop.
 2. Download noobs for Raspberry PI from [here](https://www.raspberrypi.org/downloads/noobs/).
 3. Follow the installation instructions from [here](https://www.raspberrypi.org/documentation/installation/noobs.md).  
 4. Put your SD card into your Raspberry Pi and connect it to the power supply. The installation program of noobs should start. Follow the instructions.
@@ -35,5 +35,5 @@
    For that reason you have to change the DNS-Server settings. Enter the command ```ipconfig /all``` in a cmd on your laptop. There you should find the IPs of SAPs DNS-Servers. Look for the file /etc/resolv.conf on your Raspberry PI and add the following line:
    ```nameserver <IP from an SAP DNS-Server>```
    Make the file immutable by entering
-   ```sudo chatattr +i resolv.conf```
+   ```sudo chatattr +i resolv.conf```.
 
