@@ -1,4 +1,4 @@
-# Using the Clewareware Traffic Light on a Raspberry Pi
+# Using a Clewareware Traffic Light on a Raspberry Pi
 ## Prerequisites
 - Cleware Traffic Light
 - Raspberry Pi ready to use
