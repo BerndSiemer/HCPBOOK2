@@ -7,7 +7,7 @@
 ## Installing the OS Raspbian on your micro SD card
 
 1. Put the micro SD card into your laptop
-2. Download noobs for Raspberry PI from [here] (https://www.raspberrypi.org/downloads/noobs/)
+2. Download noobs for Raspberry PI from [here](https://www.raspberrypi.org/downloads/noobs/)
 3. Follow the installation instructions from here https://www.raspberrypi.org/documentation/installation/noobs.md  
 4. Put your SD card into your Raspberry Pi and connect it to the power supply. The installation program of noobs should start
    and follow the instructions.
