@@ -19,14 +19,14 @@ Get a Raspberry Pi running and connect it to the internal network at SAP.
    Add the following lines to the file /etc/wpa_supplicant/wpa_supplicant.conf
     ```
     network={
-    ssid="SAP-Corporate"  
-    scan_ssid=1  
-    key_mgmt=WPA-EAP
-    eap=PEAP
-    identity="YOUR_USER_NAME"
-    password="YOUR_PASSWORD"
-    phase1="peapver=0"
-    phase2="MSCHAPV2"
+      ssid="SAP-Corporate"  
+      scan_ssid=1  
+      key_mgmt=WPA-EAP
+      eap=PEAP
+      identity="YOUR_USER_NAME"
+      password="YOUR_PASSWORD"
+      phase1="peapver=0"
+      phase2="MSCHAPV2"
     }
     ```
 
