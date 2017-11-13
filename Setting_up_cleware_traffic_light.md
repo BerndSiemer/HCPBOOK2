@@ -1,14 +1,14 @@
 # Using a Clewareware Traffic Light on a Raspberry Pi
-## Prerequisites
+## [Prerequisites]
 - Cleware Traffic Light
 - Raspberry Pi ready to use
 
 ## Setting up clewarecontrol
-1. Download the newest version of clewarecontrol from here https://www.vanheusden.com/clewarecontrol/files/
+1. Download the newest version of clewarecontrol from [here](https://www.vanheusden.com/clewarecontrol/files/).
    on your Raspberry Pi.
 2. It needs the library libhidapi-dev. So install the library by entering
  ```sudo apt-get install libhidapi-dev```
-3. Go to your clewarecontrol folder and enter ```make install```
+3. Go to your clewarecontrol folder and enter ```make install```.
 4. Connect your cleware traffic light to the Raspberry and test your connection by entering
    ```sudo clewarecontrol -ls```. The output should be look like
    ```
