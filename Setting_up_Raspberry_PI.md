@@ -18,7 +18,7 @@
 2. Request for an exception here https://nac-exception.wdf.sap.corp/request/new and wait until your request is granted.
 3. Raspbian doesn't have UI support for WPA2 Enterprise connections. So you have to configure your connection manually in the config files.
    Add the following lines to the file /etc/wpa_supplicant/wpa_supplicant.conf
-    
+    ```
     network={
     ssid="SAP-Corporate"  
     scan_ssid=1  
@@ -29,6 +29,7 @@
     phase1="peapver=0"
     phase2="MSCHAPV2"
     }
+    ```
 
 
 4. Now you should have an internet connection but probably you still can't access the internal network of SAP. 
