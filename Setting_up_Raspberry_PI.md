@@ -1,10 +1,10 @@
 #
 
-##[Prerequisites]
+## [Prerequisites]
 - Raspberry Pi 3 
 - Micro SD card (at least 8 GB)
 
-##Installing the OS Raspbian on your micro SD card
+## Installing the OS Raspbian on your micro SD card
 
 1. Put the micro SD card into your laptop
 2. Download noobs for Raspberry PI from here https://www.raspberrypi.org/downloads/noobs/
@@ -12,7 +12,7 @@
 4. Put your SD card into your Raspberry Pi and connect it to the power supply. The installation program of noobs should start
    and follow the instructions.
 
-##Setting up WLan connection to the internal SAP network
+## Setting up WLan connection to the internal SAP network
 
 1. Figure out the MAC address of your Raspberry Pi (enter ifconfig in a terminal).
 2. Request for an exception here https://nac-exception.wdf.sap.corp/request/new and wait until your request is granted.
