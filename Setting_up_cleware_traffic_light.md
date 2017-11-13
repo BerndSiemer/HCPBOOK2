@@ -10,12 +10,12 @@
  ```sudo apt-get install libhidapi-dev```.
 3. Go to your clewarecontrol folder and enter ```make install```.
 4. Connect your cleware traffic light to the Raspberry and test your connection by entering
-   ```sudo clewarecontrol -ls```. The output should be look like
+   ```sudo clewarecontrol -l```. It lists all connected cleware devices. The output should look like
    ```
    Cleware library version: 330
    Number of Cleware devices found: 1
    Device: 0, type: Switch1 (8), version: 64, serial number; 901100
-   ```
+   ```.
    Hint: The device will not be recognized without admin permissions.
 5. Write down the serial number of your device for later use.
 6. You can control the lights by the command ```sudo clewarecontrol -d <serial number of your device> -as x y```.
