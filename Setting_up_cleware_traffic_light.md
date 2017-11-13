@@ -15,7 +15,8 @@
    Cleware library version: 330
    Number of Cleware devices found: 1
    Device: 0, type: Switch1 (8), version: 64, serial number; 901100
-   ```.
+   ```
+   .
    Hint: The device will not be recognized without admin permissions.
 5. Write down the serial number of your device for later use.
 6. You can control the lights by the command ```sudo clewarecontrol -d <serial number of your device> -as x y```.
